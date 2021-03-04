@@ -1,0 +1,57 @@
+/* define your CSS here */
+body {
+    background-image: url("./images/my-music-background.gif");
+}
+
+.container {
+    width: 50%;
+    background-image: url('./images/music-flower.jpg');
+    border: 10px red;
+    margin: 0 auto;
+    padding: 10px
+}
+
+#title {
+    text-align: right;
+    background-color: cyan;
+    margin-bottom: 15px;
+}
+
+.link {
+    border-radius: 15px;
+    border: 5px solid;
+    padding: 10px;
+    width: 50%;
+    height: 100px;
+    flex: 25%;
+    margin-right: 15px;
+    background-color: rgb(245, 205, 245);
+}
+
+.text {
+    background-color: #C2E9E9;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.date {
+    border-bottom: 2px dashed;
+}
+
+#content {
+    display: flex;
+    text-align: justify;
+}
+
+#form {
+    flex: 80%;
+}
+
+img {
+    float: right;
+}
+
+#footer {
+    margin-left: 350px;
+}
+

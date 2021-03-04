@@ -1,0 +1,32 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 3px ridge darkred;
+    background-color: lightyellow;
+    padding: 5px;
+} 
+
+.picture {
+    border-style: inset;
+    border-top: 5px solid brown;
+    border-left: 5px solid brown;
+    border-bottom: 5px solid orange;
+    border-right: 5px solid orange;
+    width: 500px;
+}
+
+.text {
+    margin-top: 15px;
+    width: 500px;
+    max-height: 200px;
+    border: 6px yellowgreen;
+    border-style: double;
+    background-color: rgb(229, 245, 238);
+    overflow-y: scroll;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+
+
