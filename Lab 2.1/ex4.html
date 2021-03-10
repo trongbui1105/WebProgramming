@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giải Phương Trình Bậc 2</title>
+    <link rel="stylesheet" href="ex4.css">
+    
+</head>
+<body id="body">
+    <h1>Giải Phương Trình Bậc 2: Ax<sup>2</sup> + Bx + C = 0</h1>
+    <form>
+        <label>A = </label>
+        <input type="text" id="A" autofocus> 
+        <i id="error"></i>
+        <br>
+
+        <label>B = </label>
+        <input id="B"> <br>
+
+        <label>C = </label>
+        <input id="C"> <br>
+
+        <button type="button" id="submit">Giải phương trình</button>
+    </form>
+    <br>
+    <hr style="border: 1px solid; color: black">
+    <h1>Giải</h1>
+    <div>
+        <p>
+            Delta = <span id="delta"></span> 
+        </p>
+        <p id="answer"></p>
+
+        <p>
+            x<sub>1</sub> = <span id="x1"></span>
+        </p>
+        
+
+        <p>
+            x<sub>2</sub> = <span id="x2"></span>
+        </p>
+        
+    </div>
+    <script src="ex4.js"></script>
+</body>
+</html>

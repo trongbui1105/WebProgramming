@@ -1,0 +1,27 @@
+label {
+    font-size: 25px;
+    font-family: sans-serif;
+    vertical-align: middle;
+}
+
+input {
+    height: 20px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+div {
+    font-size: 20px;
+}
+
+#error {
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+    color: red;
+}

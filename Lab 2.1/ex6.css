@@ -1,0 +1,40 @@
+body {
+    color: #454545;
+    font-family: Georgia;
+}
+
+/* table {
+    border-spacing: 10px;
+} */
+
+.top-header {
+    font-variant: small-caps;
+    font-size: 28px;
+}
+#title {
+    text-align: right;
+    vertical-align: top;
+    font-size: 30px;
+}
+
+#image {
+    text-align: left;
+}
+
+.text-left {
+    text-align: right;
+    font-size: 20px;
+    padding-right: 10px;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.text-right {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+hr {
+    border: 1px solid rgb(227, 227, 247);
+}

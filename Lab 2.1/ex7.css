@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Verdana, Tahoma;
+    font-size: 12pt;
+    background-image: url("images/background.png");
+}
+
+#banner {
+    width: 100%;
+    height: 70px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#frame {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#view {
+    display: flex;
+}
+
+#overview {
+    flex: 30%;
+    float: right;
+    background-color: rgb(111, 206, 111);
+}
+
+#poster {
+    width: 100%;
+}
+
+#content {
+    flex: 70%;
+}
+
+#footer {
+    background-color: rgb(111, 206, 111);
+    text-align: center;
+}
+
+/* #rating {
+    flex: 60%;
+} */
+
+/* #poster {
+    float: right;
+}
+
+#description {
+    float: right;
+} */

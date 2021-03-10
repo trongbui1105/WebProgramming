@@ -1,0 +1,67 @@
+table {
+    margin: 0 auto;
+    width: 1000px;
+    font-size: 20px;
+    font-family: 'Lucida Grande';
+}
+
+table tr th {
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+input {
+    height: 20px;
+    margin-left: 10px;
+    float: left;
+}
+
+#name {
+    width: 200px;
+}
+
+#email {
+    width: 200px;
+}
+
+#DOB {
+    width: 120px;
+}
+
+#ZIP-code, #street, #city {
+    width: 100px;
+}
+
+#clear {
+    float: left;
+    margin-left: 10px;
+}
+
+
+span {
+    float: left;
+    margin-right: 15px;
+}
+
+table tr td {
+    /* border: 1px solid black; */
+    text-align: right;
+    padding: 10px;
+}
+
+select {
+    float: left;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+label {
+    float: left;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 4px;
+    color: red;
+    font-style: italic;
+}
