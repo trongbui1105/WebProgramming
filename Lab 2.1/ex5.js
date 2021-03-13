@@ -8,7 +8,7 @@ function validateEmail(inputText) {
 }
 
 function validateZipCode(code) {
-    regexp = /^\d{5}$/;
+    var regexp = /^\d{5}$/;
     if (!regexp.test(code.value)){
         document.getElementById('errorOfZIPCode').innerHTML = "You have entered a invalid ZIP code!"; 
     } else {
@@ -83,9 +83,7 @@ var email = document.getElementById("email");
 var ZIP_code = document.getElementById("ZIP-code");
 var DOB = document.getElementById("DOB");
 finishedButton.onclick = function() {
-    if (checkEmpty()) {
-        return;
-    } else {
+    if (!checkEmpty()) {
         if (!validateDate(DOB.value)) {
             document.getElementById("errorOfDOB").innerHTML = "You have entered a invalid date!"
         } else {

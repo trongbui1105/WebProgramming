@@ -21,8 +21,8 @@
         <tr>
             <td>Sex*: </td>
             <td>
-                <input class="radio" type="radio" id="Male" name="gender"> <span>Male</span>
-                <input class="radio" type="radio" id="Female" name="gender"> <span>Female</span>
+                <input class="radio" type="radio" id="Male" name="gender" required> <span>Male</span>
+                <input class="radio" type="radio" id="Female" name="gender" required> <span>Female</span>
                 <label class="error" id="errorOfSex"></label>
             </td>
         </tr>
@@ -82,7 +82,7 @@
 
         <tr>
             <td>
-                <button id="finished">Finished</button>
+                <button type="submit" id="finished">Finished</button>
             </td>
             <td>
                 <button id="clear">Clear</button>

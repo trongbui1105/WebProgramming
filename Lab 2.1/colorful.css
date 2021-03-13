@@ -1,0 +1,80 @@
+#calculator {
+    margin-left: 28%;
+    width: 600px;
+    border: 10px rgb(189, 205, 245);
+    border-style: outset;
+    background-color: blueviolet;
+}
+
+#screen-mode {
+    text-align: center;
+    font-family: 'Courier New';
+    font-size: 30px;
+}
+
+#screen-mode b {
+    font-size: 50px;
+}
+
+select {
+    vertical-align: middle;
+}
+
+
+#screen {
+    margin-top: 20px;
+    margin: 5px;
+    width: 98%;
+    border: 1px inset white;
+
+}
+
+#result {
+    border: 1px inset white;
+    width: 85%;
+    height: 50px;
+    margin: 3px;
+    font-family: 'Courier New';
+    font-size: 30px;
+    background-color: rgb(73, 223, 73);
+    color: rgb(255, 255, 255);
+}
+
+#keyboard {
+    margin: 0 auto;
+    width: 98%;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 1px inset white;
+    margin-bottom: 3px;
+}
+
+button {
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Courier New';
+    font-size: 30px;
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.25));
+    border: 2px outset white;
+}
+
+[id="1"], [id="2"], [id="3"], [id="+"], [id="7"], [id="8"], [id="9"], [id="x"] {
+    background-color: yellow;
+}
+
+[id="4"], [id="5"], [id="6"], [id="-"], [id="C"], [id="0"], [id="="], [id="/"] {
+    background-color: rgb(146, 188, 236);
+}
+
+[id="1"], [id="4"], [id="7"], [id="C"], [id="3"], [id="6"], [id="9"], [id="="] {
+    color: red;
+}
+
+[id="2"], [id="5"], [id="8"], [id="0"], [id="+"], [id="-"], [id="x"], [id="/"] {
+    color: blue;
+}
+
+body {
+    background-color: rgb(221, 241, 179);
+}

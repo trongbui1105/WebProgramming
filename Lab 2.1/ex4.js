@@ -33,6 +33,9 @@ function solveEquation() {
             answer.innerHTML = "Phương trình vô nghiệm";
             x1.innerHTML = 'NaN';
             x2.innerHTML = 'NaN';
+            document.getElementById("A").value = "";
+            document.getElementById("B").value = "";
+            document.getElementById("C").value = "";
         }
     }
 }
